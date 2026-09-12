@@ -9,3 +9,10 @@ print ("Promedio:", promedio)
 conteo =len(datos)
 print ("Cantidad de datos: ", conteo)
 print("\n--- Resultados del análisis ----")
+
+maximo=max(datos)
+print ("Maximo: ", maximo)
+minimo=min(datos)
+print ("Minimo: ", minimo)
+rango=maximo-minimo
+print ("Rango: ", rango)
